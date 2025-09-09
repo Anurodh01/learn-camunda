@@ -32,6 +32,7 @@ public class LeaveApplicationController {
 	
 	@GetMapping("/all")
 	public List<LeaveApplicationEntity> getleaveApplicationList() {
+		System.out.println("GET ALL LEAVE REQUESTS");
 		return this.leaveApplicationService.getleaveApplicationList();
 	}
 	
@@ -45,3 +46,4 @@ public class LeaveApplicationController {
 		return this.leaveApplicationService.getLeaveApplicationStatus(leaveId);
 	}
 }
+
