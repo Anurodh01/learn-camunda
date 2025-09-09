@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "label": "Employee ID",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_03z5pgj",
+        "columns": null
+      },
+      "id": "Field_122o2qt",
+      "key": "employee_id"
+    },
+    {
+      "label": "Leave Request Days",
+      "type": "number",
+      "layout": {
+        "row": "Row_1ylg5hx",
+        "columns": null
+      },
+      "id": "Field_0af3x73",
+      "key": "requested_leave_days",
+      "defaultValue": 1,
+      "increment": "1"
+    },
+    {
+      "label": "IsFlexibleLeave",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0ayupoi",
+        "columns": null
+      },
+      "id": "Field_12jfi2z",
+      "key": "checkbox_uiokja"
+    }
+  ],
+  "type": "default",
+  "id": "leave_apply",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.38.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.23.0",
+  "versionTag": "1.0.0",
+  "schemaVersion": 19
+}
