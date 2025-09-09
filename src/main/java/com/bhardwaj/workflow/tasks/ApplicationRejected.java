@@ -18,6 +18,7 @@ public class ApplicationRejected implements JavaDelegate {
 		System.out.println("Your leave application has been rejected.");
 		// get process instance id
 		String processInstanceId = execution.getProcessInstanceId();
+		System.out.println("ProcessInstanceId: "+processInstanceId);
 		// update in database
 		// get the leave application entity using process instance id
 		LeaveApplicationEntity leaveApplicationEntity = leaveApplicationRepository.findByProcessInstanceId(processInstanceId);
@@ -26,3 +27,4 @@ public class ApplicationRejected implements JavaDelegate {
 	}
 
 }
+
