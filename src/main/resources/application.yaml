@@ -4,7 +4,8 @@ camunda.bpm.admin-user:
 server:
   port: 9192
   
-
+spring:
+  name: learn-camunda-service
 spring:
   datasource:
     url: jdbc:h2:mem:camunda
